@@ -14,10 +14,10 @@ CGFloat const hudWidth = 136;
 CGFloat const hudHeight = 110;
 
 
-NSTimeInterval const animationOneDuration = 1.3;
+NSTimeInterval const animationOneDuration = 1.0;
 NSTimeInterval  const animationTwoDuration = 0.05;
-NSTimeInterval const animationThreeDuration = 1.0;
-double const delayInSeconds = 0.3;
+NSTimeInterval const animationThreeDuration = 0.7;
+double const delayInSeconds = 0.2;
 
 
 @interface ETProgressHud()
@@ -31,6 +31,7 @@ double const delayInSeconds = 0.3;
 
 @property (nonatomic, readonly) UIWindow *overlayWindow;
 @property (nonatomic, readonly) UIView *hudView;
+@property (nonatomic, strong) UIToolbar *fakeView;
 @property (nonatomic, readonly) UILabel *stringLabel;
 @property (nonatomic, strong) NSTimer *fadeOutTimer;
 
@@ -95,12 +96,19 @@ static ETProgressHud *sharedView = nil;
 
 
 - (void)showProgressStatus:(NSString*)status;{
-    
-    
+     self.hudView.backgroundColor = [UIColor clearColor];
+    if(![self.subviews containsObject:self.fakeView]) {
+        self.fakeView = [[UIToolbar alloc] initWithFrame:self.hudView.frame]; // .bounds or .frame? Not really sure!
+        self.fakeView.autoresizingMask = self.hudView.autoresizingMask;
+        self.fakeView.layer.cornerRadius = 8;
+        self.fakeView.layer.masksToBounds = YES;
+        [self.hudView insertSubview: self.fakeView atIndex:0];
+        [self.hudView sendSubviewToBack:self.fakeView ];
+    }
     self.fadeOutTimer = nil;
     [self.hudView addSubview:self.stringLabel];
     
-    self.hudView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backPlate"]];
+  
     
     
     [self setStatus:status];
@@ -409,9 +417,7 @@ static ETProgressHud *sharedView = nil;
 		stringLabel.adjustsFontSizeToFitWidth = YES;
 		stringLabel.textAlignment = NSTextAlignmentCenter;
 		stringLabel.baselineAdjustment = UIBaselineAdjustmentAlignCenters;
-		stringLabel.font = [UIFont boldSystemFontOfSize:16];
-		//stringLabel.shadowColor = [UIColor blackColor];
-		//stringLabel.shadowOffset = CGSizeMake(0, -1);
+		stringLabel.font = [UIFont boldSystemFontOfSize:14];
         stringLabel.numberOfLines = 0;
 		[self.hudView addSubview:stringLabel];
     }

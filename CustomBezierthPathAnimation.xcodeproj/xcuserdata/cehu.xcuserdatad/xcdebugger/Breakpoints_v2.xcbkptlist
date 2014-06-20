@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tested/ETProgressHud.m"
-            timestampString = "423947188.669245"
+            timestampString = "424696930.109841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "-setStatus:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tested/ETProgressHud.m"
-            timestampString = "423947188.669245"
+            timestampString = "424696930.109841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
             landmarkName = "-setStatus:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tested/ETProgressHud.m"
-            timestampString = "423947188.669245"
+            timestampString = "424696930.109841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "273"
-            endingLineNumber = "273"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
             landmarkName = "-moveToPoint:rotateAngle:"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,12 +58,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tested/ETProgressHud.m"
-            timestampString = "423947188.669245"
+            timestampString = "424696930.109841"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "339"
-            endingLineNumber = "339"
+            startingLineNumber = "347"
+            endingLineNumber = "347"
             landmarkName = "-dismissWithStatus:error:afterDelay:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tested/ETProgressHud.m"
+            timestampString = "424696930.109841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-showProgressStatus:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

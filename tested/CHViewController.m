@@ -23,6 +23,7 @@
   //  self.etalioPath = [[ETProgressHud alloc] initWithFrame:self.view.frame];
     
   //  [self.view addSubview:self.etalioPath];
+    self.view.backgroundColor = [UIColor redColor];
     
     [ETProgressHud showWithStatus:@"Loading"];
     
@@ -30,7 +31,7 @@
     double delayInSeconds = 5.0;
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW,delayInSeconds * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-        [ETProgressHud setStatus:@"this time it should change text"];
+       // [ETProgressHud setStatus:@"this time it should change text"];
     });
     
     

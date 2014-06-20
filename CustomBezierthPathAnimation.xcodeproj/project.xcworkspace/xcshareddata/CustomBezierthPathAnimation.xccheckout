@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB5C8FF1-C08E-43C7-AD17-F2DC4654071D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomBezierthPathAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6665511-BE56-4E92-A63F-9636DF72F237</key>
+		<string>ssh://github.com/TokyoBirdy/AnimateBezierPath.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomBezierthPathAnimation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6665511-BE56-4E92-A63F-9636DF72F237</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/TokyoBirdy/AnimateBezierPath.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6665511-BE56-4E92-A63F-9636DF72F237</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6665511-BE56-4E92-A63F-9636DF72F237</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomBezierPathAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
